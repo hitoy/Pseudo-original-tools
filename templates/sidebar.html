@@ -1,0 +1,35 @@
+<body>
+<div class="main">
+<div class="null"></div>
+<div class="sidebar">
+	<a href="{hito:indexdir}"><img src="{hito:templateurl}images/logo.png" alt="logo" id="logo"/></a>
+<h1>Products Center</h1>
+<dl>
+	<dt class="selected">Mobile Crusher</dt>
+	<dd><a href="/2">Crawler type Mobile Crusher</a></dd>
+	<dd><a href="/3">Mobile Primary Jaw Crusher</a></dd>
+	<dd><a href="/4">Mobile Impact Crusher</a></dd>
+	<dd><a href="/5">Mobile Cone Crusher</a></dd>
+	<dd><a href="/6">Wheeled Jaw Crusher</a></dd>
+	<dd><a href="/7">Portable VSI Crusher</a></dd>
+	<dt><a href="/8">Stationary Crushing Equipment</a></dt>
+	<dt><a href="/9">Milling Equipment</a></dt>
+	<dt><a href="/10">Other Equipment</a></dt>
+</dl>
+<h1>Hot Products</h1>
+<ul class="prolist">
+	<li><a href="javascript:void(0)"><img src="{hito:templateurl}images/1.jpg" alt="HP Cone Crusher"/></a></li>
+	<li><a href="javascript:void(0)"><img src="{hito:templateurl}images/2.jpg" alt="VSI5X Impact Crusher"/></a></li>
+	<li><a href="javascript:void(0)"><img src="{hito:templateurl}images/3.jpg" alt="MTW Trapezium Mill"/></a></li>
+	<li><a href="javascript:void(0)"><img src="{hito:templateurl}images/4.jpg" alt="LUM Vertical Roller Mill"/></a></li>
+</ul>
+<h1>LATEST POSTS</h1>
+<ul class="newlist">
+	{foreach name="newslist"}
+	<li><a href="{newlist[key]}" title="{newslist[value]}">{newslist[value]}</a></li>
+	{endforeach}
+</ul>
+<div class="request">
+	<img src="{hito:templateurl}images/request.gif" alt="click here for online support" title="click here for online support" onclick="openZoosUrl('chatwin')";/>
+</div>
+</div>

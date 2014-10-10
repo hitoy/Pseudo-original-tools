@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /contents/
+Disallow: /data/
+Disallow: /libs/
+Disallow: /templates/

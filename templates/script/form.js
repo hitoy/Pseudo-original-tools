@@ -1,0 +1,11 @@
+document.writeln("<div class=\"form\">");
+document.writeln("<table>");
+document.writeln("<form action=\"http://test.break-day.com/message_do.php\" method=\"post\">");
+document.writeln("<tr><td>Name</td><td><input type=\"text\" name=\"name\"/><span>*</span></td><td>Email</td><td><input type=\"email\" name=\"email\"/><span>*</span></td></tr>");
+document.writeln("<tr><td>Country</td><td><input type=\"text\" name=\"country_name\"/></td><td>Tel</td><td><input type=\"text\" name=\"tel\"/></td></tr>");
+document.writeln("<tr><td>Products</td><td><input type=\"text\" name=\"product\"/></td><td>Company</td><td><input type=\"text\" name=\"company\"/></td></tr>");
+document.writeln("<tr><td>Message</td><td colspan=\"3\"><textarea name=\"message\"></textarea><span>*</span><input type=\"hidden\" name=\"url\" id=\"domurl\"/><script>document.getElementById(\"domurl\").value=window.top.location;</script></td></td>");
+document.writeln("<tr><td></td><td colspan=\"3\"><input type=\"submit\" value=\"Sumbit\"/></td></td>");
+document.writeln("</form>");
+document.writeln("</table>");
+document.writeln("</div>");

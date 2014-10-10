@@ -1,0 +1,9 @@
+﻿需要的系统标签有：
+{hito:title}
+{hito:keywords}
+{hito:description}
+{hito:content}
+{hito:include="head.html"}
+{hito:templatesurl}
+{hito:indexdir}
+{hito:arclist=5}
